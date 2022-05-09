@@ -1,0 +1,16 @@
+{
+  "name": "bundler-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.js --bundle --outfile=out.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.38"
+  }
+}
